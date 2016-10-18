@@ -3,76 +3,74 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Gives the page title as {title} (medium dash) Nishnha if title, otherwise as Nishnha -->
-    <title>Using Jekyll With Bootstrap &mdash; Nishnha</title>
-
-    <!-- loads Fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/690e26edf4.js">
+    
+    <title>Rewriting CSS as SASS &mdash; #Fullstack</title>
 
     <!-- fonts -->
     <link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
 
-	<!-- sets the css for different viewports -->
-    <link href="/css/main.css" rel="stylesheet" media="(min-width: 769px)">
-    <link href="/css/phone.css" rel="stylesheet" media="(max-width: 768px)">
+	<!-- CSS Link -->
+    <link href="main.css" rel="stylesheet" type="text/css">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body id="top">
     <nav id="navbar">
-	<input type="checkbox" name="navbar" value="toggle" id="toggle">
-	<label class="toggle" for="toggle">
-		<i class="fa fa-lg fa-bars"></i>
-	</label>
+        <a class="logo" href="/">#Fullstack</a>
+        <ul class="nav-links">
+            <li><a href="http://pantherhackers.com/"  title="PantherHackers.com">PantherHackers</a></li>
+            <li><a href="https://github.com/Nishnha/fullstack"  title="Fullstacks's github">Github</a></li>
+            <li><a href="https://www.instagram.com/pantherhackers/" target="_blank" title="PH's instagram">PH Photos</a></li>
+            <li><a href="http://pantherhackers.com/about/"  title="About PH">About</a></li>
+        </ul>
+    </nav>
 
-	<a class="logo" href="/">nishnha.me</a>
-	<ul class="nav-links">
-		<li><a href="/archive"  title="A list of all my posts">Archive</a></li>
-		<li><a href="/projects"  title="Some of my current projects">Projects</a></li>
-		<li><a href="https://www.instagram.com/nishnha/" target="_blank" title="Photograpy">Photography</a></li>
-		<li><a href="/about"  title="About me">About Me</a></li>
-	</ul>
-</nav>
-
-    <div class="page">
     <div class="content">
-        <div class="title"><h1>Using Jekyll With Bootstrap</h1></div>
-        <div class="date"><p>May 27, 2015</p></div>
-        <div class="article"><p>I wanted to make a blog. Simple enough - use google to find how to make one, right? I came across hundreds of solutions–WordPress, etc. etc.–and then I found Jekyll. It was perfect for anyone who wanted to make a blog, complex, sure, but flexible and powerful too. I knew a bit of HTML coding from past efforts and I watched a few videos on CSS styling. Here’s another sentence as a test. I don’t know what this will do, but I think it will do something that will help me figure out this madness!</p>
-
-<p>My struggle began from installation. I would host with Github, that I had figured out, but Jekyll itself was an issue. What were all these files for?</p>
-
-        	<p class="backToTop"><a href="#top" class="top">Back to Top</a></p>
+        <div class="title"><h1>Rewriting CSS as SASS</h1></div>
+        <div class="date"><p>Oct 19, 2016</p></div>
+        <div class="article">
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper ac leo in hendrerit. Fusce ut tincidunt lorem. Maecenas elit libero, laoreet sit amet egestas ac, tempor vitae eros. Cras in lacus leo. Fusce bibendum at urna id pulvinar. Curabitur lacinia leo in dolor venenatis, ac fringilla lectus lobortis. Mauris maximus auctor ligula, placerat ornare nisi aliquet sit amet. Etiam tempor, enim ut fringilla fringilla, mi massa suscipit eros, sit amet porttitor leo tortor at ipsum. Mauris a tempus odio, vel maximus est. Nulla tempus, enim et aliquet interdum, risus risus euismod tellus, vel aliquam enim dolor non arcu.
+            </p>
+            <p>
+            Etiam vel tempus massa. Cras ac erat sodales, molestie ipsum iaculis, imperdiet eros. Etiam vitae faucibus est, id mattis quam. Integer rhoncus placerat turpis sit amet luctus. Sed consequat magna leo, nec imperdiet lectus maximus sit amet. Cras suscipit tellus urna, laoreet dignissim dolor pellentesque in. Mauris sollicitudin libero nec nisi varius, in sollicitudin purus aliquam. Maecenas dapibus gravida nulla, in euismod enim euismod cursus.
+            </p>
+            <p>
+            Praesent in porta nunc. Donec quis sem lorem. Quisque rutrum sem at mollis scelerisque. Aenean sed bibendum lacus, nec tincidunt diam. Nunc ac nibh sed felis hendrerit eleifend ac id mi. Nunc ac nisi maximus, blandit ante vel, pulvinar est. Pellentesque pellentesque, ante et sodales pulvinar, magna erat mattis eros, eget faucibus ante risus a neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Fusce porttitor lacus non aliquam facilisis. Integer quis dolor accumsan, faucibus ligula et, viverra justo. In lobortis ante turpis, ut eleifend urna cursus auctor. Quisque imperdiet nibh at massa congue aliquam sed malesuada quam. Phasellus a gravida est.
+            </p>
+            <p>
+            Etiam eleifend a urna ac ullamcorper. Morbi sollicitudin neque eget leo euismod dictum. Morbi sapien ex, suscipit id aliquet vitae, tempus eget mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque efficitur aliquam ipsum vel vestibulum. Aliquam pretium sem vehicula felis porttitor, a dignissim ante egestas. Vivamus diam ligula, ullamcorper eu suscipit sed, gravida nec ante. Pellentesque purus leo, ultrices non tristique vitae, vulputate at lorem. Nunc non venenatis ante. Nulla facilisi. Aliquam ac egestas sapien.
+            </p>
+            <p>
+            Mauris et imperdiet purus. Nam pretium lacinia egestas. Nullam sem ex, porta sed elementum ultrices, tristique at neque. Nulla dapibus risus tellus, id sollicitudin arcu semper id. Suspendisse vel varius sem, a sollicitudin quam. Sed enim sapien, lobortis nec imperdiet sed, pulvinar sit amet eros. Suspendisse id volutpat elit. Quisque nec orci rhoncus, lacinia nunc non, lobortis metus.
+            </p>
+            <p>
+            Quisque eu fringilla lorem. Donec aliquam turpis ut ullamcorper tempus. Duis dictum nisl eget nunc efficitur porttitor. Aliquam vel tortor elit. Suspendisse ultricies dolor nulla, nec laoreet ante accumsan eget. Ut quis neque interdum, porttitor velit et, luctus massa. Etiam eu nisi pulvinar quam lacinia sodales. Sed sodales nisi quis nibh iaculis, a vestibulum sapien pretium. Integer scelerisque, tellus eget viverra volutpat, libero nisi efficitur velit, a consequat lectus erat quis velit. Vivamus turpis magna, fermentum vel justo ut, bibendum gravida justo. Nam laoreet nec urna tempus aliquam. Aliquam ac ante enim. Aliquam eleifend, dolor eget finibus auctor, neque sapien sagittis nulla, a luctus dui mi at est.
+            </p>
+            <p>
+            Mauris bibendum orci ullamcorper tempus tempus. Nam lacinia eros non nunc rhoncus, id fringilla tortor scelerisque. Aliquam dapibus risus ut leo auctor, imperdiet rhoncus felis viverra. Proin eu nunc vel nibh tristique scelerisque luctus sed nibh. Integer eu lacinia dui. In varius tempor quam id volutpat. Quisque molestie iaculis ultricies. Curabitur in quam sit amet turpis vehicula pretium quis eu magna. Vestibulum quam purus, faucibus quis volutpat eu, tincidunt sed nisi. Pellentesque vehicula risus id ligula accumsan, sagittis ultricies dui vehicula. Mauris finibus, dui fermentum ullamcorper laoreet, ipsum mi lobortis lectus, ut maximus nisl lacus quis est. Curabitur lacinia, lectus vel blandit tincidunt, nibh metus varius sapien, et lobortis leo nisi eget erat. Nam vitae odio sed metus euismod porta.
+            </p>
+            <p>
+            Nunc suscipit justo vel quam dignissim, semper blandit augue ultricies. Proin velit dui, bibendum nec consectetur eu, aliquet id risus. Aliquam faucibus rhoncus est quis rhoncus. Maecenas vitae neque id odio malesuada ullamcorper. Ut quis faucibus diam. Maecenas nec efficitur orci. Vivamus ultricies ipsum non justo tristique accumsan. Nullam feugiat justo in aliquet convallis. Donec at euismod dolor. Morbi varius odio maximus tempor placerat. Sed scelerisque justo lectus, in placerat nisl imperdiet non. In tincidunt urna in diam malesuada iaculis. Nulla dictum mi vitae felis sagittis ornare. Duis dapibus leo erat, ut molestie ipsum pulvinar vitae. Pellentesque sed bibendum nisi, vitae condimentum mi. Suspendisse commodo scelerisque purus.
+            </p>
+            <p>
+            Phasellus id dolor quis odio blandit rutrum in in elit. Fusce mi odio, maximus ut porta sit amet, fringilla quis odio. Suspendisse potenti. In rutrum, urna nec malesuada finibus, eros eros consectetur libero, eget elementum est orci ac sem. Nulla sodales, ipsum id convallis imperdiet, turpis dui mattis justo, quis mattis neque nibh id mi. Vestibulum suscipit vehicula blandit. Etiam cursus bibendum risus non hendrerit. Sed at nisi sit amet eros fringilla suscipit et nec ipsum. Fusce nec tortor tempor, interdum eros eget, commodo neque. Aliquam orci ante, ultricies venenatis efficitur sed, faucibus vel libero. Suspendisse eget arcu a magna rutrum varius. Fusce eu sollicitudin nibh. Quisque faucibus auctor velit nec fermentum. Nulla quam tellus, luctus at risus vel, varius consectetur turpis. Nunc consequat est at mollis auctor.
+            </p>
+            <p>
+            In ullamcorper lacus eget aliquam scelerisque. Phasellus placerat aliquet leo, facilisis dignissim augue iaculis eu. Proin rhoncus nec neque vel sollicitudin. Etiam euismod faucibus elementum. Proin ac consectetur augue, at lobortis ante. Fusce ac risus porttitor, egestas dolor vitae, tincidunt dui. Quisque sodales pulvinar felis, id bibendum nunc. Ut rutrum diam quis odio tempor eleifend.
+            </p>
+        	<p class="backToTop">
+                <a href="#top" class="toTop">Back to Top</a>
+            </p>
 		</div>
-		<div id="disqus_thread"></div>
-<script type="text/javascript">
-/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-var disqus_shortname = 'nishnha'; // required: replace example with your forum shortname
-
-/* * * DON'T EDIT BELOW THIS LINE * * */
-(function() {
-var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
     </div>
-</div>
-
+    
 	<div id="footer">
-    <a href="http://twitter.com/nishnha" target="_blank" title="Follow me on Twitter">
-		<i class="fa fa-twitter fa-2x"></i>
-	</a>
-</div>
-
+        <a href="https://twitter.com/PantherHackers" target="_blank" title="Twitter">Follow us on twitter</a>
+        <br>
+        <a href="https://www.facebook.com/PantherHackers" target="_blank" title="Facebook">And on Facebook</a>
+    </div>
 </body>
-
 </html>
